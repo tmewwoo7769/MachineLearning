@@ -440,9 +440,9 @@ Các lớp và hàm chính của scikit-learn được dùng: `LinearRegression`
 
 | | |
 |---|---|
-| **Sinh viên thực hiện** | `[Nguyen Ngoc Han]` |
-| **Mã số sinh viên** | `[2474802010533]` |
-| **Lớp** | `[261_71ITAI41203_01]` |
+| **Sinh viên thực hiện** | Nguyễn Ngọc Hân|
+| **Mã số sinh viên** | 2474802010533 |
+| **Lớp** | 261_71ITAI41203_01 |
 | **Giảng viên** | ThS. Nguyễn Thái Anh |
 | **Đơn vị** | Khoa Công nghệ Thông tin, Trường Đại học Văn Lang |
 | **Năm học** | 2026 – 2027 |
