@@ -1,9 +1,9 @@
 <div align="center">
 
-# Học máy ứng dụng — Bộ bài thực hành
+# Học máy ứng dụng - Bộ bài thực hành
 
-**Trường Đại học Văn Lang · Khoa Công nghệ Thông tin**
-Học phần: *Học máy ứng dụng* · Năm học 2026 – 2027
+**Trường Đại học Văn Lang - Khoa Công nghệ Thông tin**
+Học phần: *Học máy ứng dụng* - Năm học 2026 - 2027
 
 </div>
 
