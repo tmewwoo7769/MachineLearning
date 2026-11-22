@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🤖 Học máy ứng dụng — Bộ bài thực hành
-
-**Từ đường thẳng đơn giản đến mạng nơ-ron: 9 bài thực hành học máy bằng Python và scikit-learn**
+# Học máy ứng dụng — Bộ bài thực hành
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
@@ -18,24 +16,21 @@ Học phần: *Học máy ứng dụng* · Năm học 2026 – 2027
 
 ---
 
-## 📑 Mục lục
+## Mục lục
 
 1. [Giới thiệu](#-giới-thiệu)
 2. [Mục tiêu học tập](#-mục-tiêu-học-tập)
-3. [Lộ trình 9 bài thực hành](#-lộ-trình-9-bài-thực-hành)
-4. [Cấu trúc thư mục](#-cấu-trúc-thư-mục)
-5. [Cài đặt và chạy](#-cài-đặt-và-chạy)
-6. [Nội dung chi tiết từng bài](#-nội-dung-chi-tiết-từng-bài)
-7. [Tổng hợp so sánh các mô hình](#-tổng-hợp-so-sánh-các-mô-hình)
-8. [Những bài học xuyên suốt](#-những-bài-học-xuyên-suốt)
-9. [Bài tập](#-bài-tập)
-10. [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
-11. [Thông tin tác giả](#-thông-tin-tác-giả)
-12. [Ghi chú](#-ghi-chú)
+3. [9 bài thực hành](#-lộ-trình-9-bài-thực-hành)
+4. [Nội dung chi tiết từng bài](#-nội-dung-chi-tiết-từng-bài)
+5. [Tổng hợp so sánh các mô hình](#-tổng-hợp-so-sánh-các-mô-hình)
+6. [Những bài học xuyên suốt](#-những-bài-học-xuyên-suốt)
+7. [Bài tập](#-bài-tập)
+8. [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
+9. [Thông tin tác giả](#-thông-tin-tác-giả)
 
 ---
 
-## 📖 Giới thiệu
+## Giới thiệu
 
 Repository này lưu toàn bộ **mã nguồn, kết quả chạy và bài làm** của học phần **Học máy ứng dụng**, thực hiện theo bộ *Tài liệu thực hành* do **ThS. Nguyễn Thái Anh** biên soạn (Khoa Công nghệ Thông tin, Trường Đại học Văn Lang).
 
@@ -45,16 +40,16 @@ Học phần đi theo một mạch xuyên suốt: bắt đầu từ mô hình đ
 
 Cách làm này nhằm một mục đích: người học không chỉ *gọi được hàm* mà còn **hiểu máy thật sự tính gì bên trong**.
 
-### ✨ Điểm nổi bật
+### Điểm nổi bật
 
-- 🧮 **Tự viết thuật toán từ đầu** bằng NumPy: hồi quy tuyến tính (công thức và gradient descent), sigmoid, định lý Bayes, Naive Bayes, chỉ số Gini, KNN, K-Means, lan truyền tiến của mạng nơ-ron.
-- 🔬 **Kết quả có thể kiểm chứng**: mọi con số trong README đều lấy từ kết quả chạy thật của bộ tài liệu, tái lập được nhờ cố định `random_state`.
-- 🧪 **Đánh giá đúng cách**: luôn chia tập học / tập kiểm tra, dùng `stratify`, dùng `make_pipeline` để tránh rò rỉ dữ liệu, chọn siêu tham số bằng kiểm định chéo thay vì nhìn tập kiểm tra.
-- ⚠️ **Nhấn mạnh các cái bẫy thực tế**: quên chuẩn hoá, accuracy đánh lừa trên dữ liệu lệch lớp, học vẹt, ngoại suy, khởi tạo xấu...
+- **Tự viết thuật toán từ đầu** bằng NumPy: hồi quy tuyến tính (công thức và gradient descent), sigmoid, định lý Bayes, Naive Bayes, chỉ số Gini, KNN, K-Means, lan truyền tiến của mạng nơ-ron.
+- **Kết quả có thể kiểm chứng**: mọi con số trong README đều lấy từ kết quả chạy thật của bộ tài liệu, tái lập được nhờ cố định `random_state`.
+- **Đánh giá đúng cách**: luôn chia tập học / tập kiểm tra, dùng `stratify`, dùng `make_pipeline` để tránh rò rỉ dữ liệu, chọn siêu tham số bằng kiểm định chéo thay vì nhìn tập kiểm tra.
+- **Nhấn mạnh các cái bẫy thực tế**: quên chuẩn hoá, accuracy đánh lừa trên dữ liệu lệch lớp, học vẹt, ngoại suy, khởi tạo xấu...
 
 ---
 
-## 🎯 Mục tiêu học tập
+## Mục tiêu học tập
 
 Sau khi hoàn thành 9 bài, người học có khả năng:
 
@@ -69,7 +64,7 @@ Sau khi hoàn thành 9 bài, người học có khả năng:
 
 ---
 
-## 🗺️ Lộ trình 9 bài thực hành
+## 9 bài thực hành
 
 | Bài | Chủ đề | Loại bài toán | Bộ dữ liệu | Thư mục |
 |:---:|--------|:-------------:|------------|---------|
@@ -83,104 +78,11 @@ Sau khi hoàn thành 9 bài, người học có khả năng:
 | 8 | [Phân cụm K-Means](#bài-8--phân-cụm-k-means) | Không giám sát | `khach_hang.csv` (210 khách) | `bai08_kmeans` |
 | 9 | [Mạng nơ-ron nhiều lớp (MLP)](#bài-9--mạng-nơ-ron-nhiều-lớp-mlp) | Phân loại + Hồi quy | `xor.csv`, `load_digits`... | `bai09_mlp` |
 
-> 📌 Tất cả bộ dữ liệu là **số liệu mô phỏng phục vụ giảng dạy**, riêng `load_digits` và `load_sample_image` là dữ liệu có sẵn trong scikit-learn.
+> Tất cả bộ dữ liệu là **số liệu mô phỏng phục vụ giảng dạy**, riêng `load_digits` và `load_sample_image` là dữ liệu có sẵn trong scikit-learn.
 
 ---
 
-## 📁 Cấu trúc thư mục
-
-Mỗi bài là một thư mục độc lập, cùng một bố cục. Ví dụ với bài 1:
-
-```text
-MayHoc/
-├── README.md
-├── requirements.txt
-├── bai01_hoi_quy/
-│   ├── data/                 # Dữ liệu CSV của bài
-│   │   └── gia_nha.csv
-│   ├── code/                 # Mã nguồn theo thứ tự b1 → b7
-│   │   ├── b1_doc_du_lieu.py
-│   │   ├── b2_do_sai_so.py
-│   │   ├── b3_cong_thuc.py
-│   │   ├── b4_sklearn.py
-│   │   ├── b5_danh_gia.py
-│   │   ├── b6_gradient_descent.py
-│   │   └── b7_nhieu_bien.py
-│   ├── figures/              # Hình vẽ sinh ra
-│   ├── outputs/              # Kết quả in ra màn hình của từng bước
-│   └── baitap01/             # Bài tập tự làm: bai1.py … bai6.py
-├── bai02_hoi_quy_logistic/   # code: c1 … c6
-├── bai03_naive_bayes/        # code: d1 … d5
-├── bai04_knn/                # code: e1 … e5
-├── bai05_cay/                # code: f1 … f7
-├── bai06_svm/                # code: g1 … g5
-├── bai07_danh_gia/           # code: h1 … h6
-├── bai08_kmeans/             # code: k1 … k5
-└── bai09_mlp/                # code: m1 … m5
-```
-
-> Quy ước đặt tên tệp mã: mỗi bài có một chữ cái đầu riêng (`b`, `c`, `d`, `e`, `f`, `g`, `h`, `k`, `m`) và số thứ tự bước, chạy **theo đúng thứ tự** để tái hiện kết quả.
-
----
-
-## ⚙️ Cài đặt và chạy
-
-### Yêu cầu
-
-- Python 3.10 trở lên
-- Bốn thư viện: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
-
-### 1. Tải mã nguồn
-
-```bash
-git clone https://github.com/<ten-tai-khoan>/<ten-repo>.git
-cd <ten-repo>
-```
-
-### 2. Tạo môi trường ảo và cài thư viện
-
-**Windows**
-
-```bash
-python -m venv hocmay
-hocmay\Scripts\activate
-pip install numpy pandas matplotlib scikit-learn
-```
-
-**macOS / Linux**
-
-```bash
-python3 -m venv hocmay
-source hocmay/bin/activate
-pip install numpy pandas matplotlib scikit-learn
-```
-
-### 3. Kiểm tra môi trường
-
-```bash
-python -c "import numpy, pandas, matplotlib, sklearn; print('Moi truong OK')"
-```
-
-### 4. Chạy một bài
-
-> ⚠️ **Quy tắc quan trọng nhất:** luôn chạy lệnh **từ thư mục gốc của bài**, **không** `cd` vào trong `code/`. Trong mã, đường dẫn dữ liệu được viết dạng `data/ten_tep.csv` và Python tính đường dẫn tương đối theo thư mục đang đứng. Đứng sai chỗ sẽ gặp `FileNotFoundError`.
-
-```bash
-cd bai01_hoi_quy
-python code/b1_doc_du_lieu.py
-python code/b2_do_sai_so.py
-# ... tiếp tục theo thứ tự b3 → b7
-```
-
-Chạy bài tập (cũng từ thư mục gốc của bài):
-
-```bash
-python baitap01/bai1.py
-```
-
----
-
-## 📚 Nội dung chi tiết từng bài
+##  Nội dung chi tiết từng bài
 
 ### Bài 1 — Hồi quy tuyến tính
 
@@ -452,7 +354,7 @@ python baitap01/bai1.py
 
 ---
 
-## 📊 Tổng hợp so sánh các mô hình
+## Tổng hợp so sánh các mô hình
 
 ### Trên dữ liệu có biên cong (hai vầng trăng, tập kiểm tra)
 
@@ -490,11 +392,11 @@ python baitap01/bai1.py
 | KNN (k = 5) | 0.4030 |
 | Cây quyết định (sâu 3) | 0.5039 |
 
-> 💡 **Không có mô hình nào tốt nhất cho mọi bài toán.** Hình dạng thật của dữ liệu quyết định mô hình nào phù hợp: biên cong thì KNN/SVM thắng, quan hệ gần như thẳng thì đường thẳng thắng.
+> **Không có mô hình nào tốt nhất cho mọi bài toán.** Hình dạng thật của dữ liệu quyết định mô hình nào phù hợp: biên cong thì KNN/SVM thắng, quan hệ gần như thẳng thì đường thẳng thắng.
 
 ---
 
-## 🧠 Những bài học xuyên suốt
+## Những bài học xuyên suốt
 
 1. **Luôn có mức sàn để so sánh.** Mô hình lười (đoán lớp đông nhất) cho biết accuracy bao nhiêu là "không có gì".
 2. **Không bao giờ chấm điểm trên dữ liệu đã học.** Accuracy 1.0000 của KNN với k = 1 trên tập học là vô nghĩa.
@@ -507,7 +409,7 @@ python baitap01/bai1.py
 
 ---
 
-## 📝 Bài tập
+## Bài tập
 
 Mỗi bài có một bộ bài tập tự làm đặt trong thư mục `baitapXX/` (ví dụ `baitap04/bai1.py`), chạy từ thư mục gốc của bài. Bài nộp gồm **mã nguồn** và **ảnh chụp màn hình kết quả**.
 
@@ -527,7 +429,7 @@ Mỗi bài có một bộ bài tập tự làm đặt trong thư mục `baitapXX
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 
 | Công cụ | Vai trò |
 |---------|---------|
@@ -541,27 +443,16 @@ Các lớp và hàm chính của scikit-learn được dùng: `LinearRegression`
 
 ---
 
-## 👤 Thông tin tác giả
+## Thông tin tác giả
 
 | | |
 |---|---|
-| **Sinh viên thực hiện** | `[Họ và tên]` |
-| **Mã số sinh viên** | `[MSSV]` |
-| **Lớp** | `[Lớp]` |
-| **Email** | `[email]` |
-| **Học phần** | Học máy ứng dụng |
+| **Sinh viên thực hiện** | `[Nguyen Ngoc Han]` |
+| **Mã số sinh viên** | `[2474802010533]` |
+| **Lớp** | `[261_71ITAI41203_01]` |
 | **Giảng viên** | ThS. Nguyễn Thái Anh |
 | **Đơn vị** | Khoa Công nghệ Thông tin, Trường Đại học Văn Lang |
 | **Năm học** | 2026 – 2027 |
-
----
-
-## 📌 Ghi chú
-
-- Tài liệu thực hành gốc do **ThS. Nguyễn Thái Anh** biên soạn; repository này là sản phẩm học tập của sinh viên, thực hiện theo tài liệu đó.
-- Toàn bộ dữ liệu là **số liệu mô phỏng dùng cho mục đích giảng dạy**; kết quả không dùng để ra quyết định thực tế.
-- Để tái lập đúng các con số, giữ nguyên `random_state` và `stratify` như trong tài liệu (ví dụ `random_state=42` ở bài 1, `random_state=17` và `stratify=y` ở các bài phân loại). Quên hai tham số này là nguyên nhân phổ biến nhất khiến kết quả khác tài liệu.
-- Khi gặp `ConvergenceWarning` ở bài 9, đó là lời nhắc chứ không phải lỗi; có thể tăng `max_iter` hoặc kiểm tra lại việc chuẩn hoá.
 
 <div align="center">
 
