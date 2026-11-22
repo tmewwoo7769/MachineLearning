@@ -447,8 +447,3 @@ Các lớp và hàm chính của scikit-learn được dùng: `LinearRegression`
 | **Đơn vị** | Khoa Công nghệ Thông tin, Trường Đại học Văn Lang |
 | **Năm học** | 2026 – 2027 |
 
-<div align="center">
-
-⭐ Nếu thấy repository hữu ích, hãy để lại một ngôi sao nhé!
-
-</div>
