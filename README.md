@@ -2,13 +2,6 @@
 
 # Học máy ứng dụng — Bộ bài thực hành
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-numerical-013243?logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-data-150458?logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-plots-11557C)
-![Labs](https://img.shields.io/badge/Labs-9-success)
-
 **Trường Đại học Văn Lang · Khoa Công nghệ Thông tin**
 Học phần: *Học máy ứng dụng* · Năm học 2026 – 2027
 
